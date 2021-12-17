@@ -1,0 +1,10 @@
+Nextjs 12
+React
+Dbounce
+Tailwind CSS
+spotify API
+oauth JWT
+access/refresh
+tokens
+NextAuth
+REcoil
