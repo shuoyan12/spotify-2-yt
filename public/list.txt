@@ -26,3 +26,6 @@ tokens
 npm i next-auth@beta
 ```
 REcoil
+```
+npm i recoil
+```
