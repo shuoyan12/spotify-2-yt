@@ -12,6 +12,8 @@ npm i next-quth@beta
 ###Tailwind CSS
 ```
 npm i @heroicons/react
+//It must be hiding something
+npm install [tailwind-scrollbar-hide](https://www.npmjs.com/package/tailwind-scrollbar-hide)
 ```
 spotify API
 ```
