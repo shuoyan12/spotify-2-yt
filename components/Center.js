@@ -1,4 +1,5 @@
 import { ChevronDownIcon } from "@heroicons/react/outline";
+import Songs from "./Songs";
 import { useSession } from "next-auth/react";
 import { useEffect, useState } from "react";
 import { shuffle } from "lodash";
@@ -52,6 +53,10 @@ function Center() {
                     </h1>
                 </div>
             </section>
+
+            <div>
+                <Songs />
+            </div>
         </div>
     )
 }
