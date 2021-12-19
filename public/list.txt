@@ -1,10 +1,26 @@
-Nextjs 12
-React
-Dbounce
-Tailwind CSS
+```
+npx create-next-app -e with-tailwindcss spotify-2-yt
+```
+
+###Nextjs 12 
+ - React
+ - oauth JWT
+```
+npm i next-quth@beta
+```
+###Dbounce
+###Tailwind CSS
+```
+npm i @heroicons/react
+```
 spotify API
-oauth JWT
+```
+npm install spotify-web-api-node
+```
 access/refresh
 tokens
-NextAuth
+###NextAuth
+```
+npm i next-auth@beta
+```
 REcoil
