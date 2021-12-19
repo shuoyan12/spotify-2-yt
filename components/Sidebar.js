@@ -67,7 +67,7 @@ function Sidebar() {
 
                 {/* */}
                 {playlists.map((playlist) => (
-                    <p key={playlist.id} className="cursor-pointer hover:text-white">{playlist.name}</p>
+                    <p key={playlist.id} onClick={() => setPlaylistsId(playlist.id)} className="cursor-pointer hover:text-white">{playlist.name}</p>
                 ))}
             </div>
         </div>
