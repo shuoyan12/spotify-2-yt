@@ -35,9 +35,9 @@ function Center() {
             .catch((err) => console.log("Something went wrong"))
     }, [spotifyApi, playlistId]);
     return (
-        <div className="flex-grow">
+        <div className="flex-grow overflow-y-scroll h-screen scrollbar-hide">
             <header className="absolute top-5 right-8">
-                <div className="flex items-center bg-red-300 space-x-3 opacity-90 hover:opacity-80 cursor-pointer rounded-full p-1 pr-2 text-white">
+                <div className="flex items-center bg-black space-x-3 opacity-90 hover:opacity-80 cursor-pointer rounded-full p-1 pr-2 text-white">
                     <img className="rounded-full w-10 h-10" src={session?.user.image} alt="" />
                     <h2>{session?.user.name}</h2>
                     <ChevronDownIcon className="h-5 w-5" />
